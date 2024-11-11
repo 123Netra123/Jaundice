@@ -100,7 +100,7 @@ nav .nav_logo a{
 }
 
 nav .nav_logo h2{
-    font-size: 32px;
+    font-size: 22px;
     color: green;
 }
 
@@ -179,15 +179,16 @@ label .close_btn{
 }
 
 .hero_container .imgae_section{
-    max-width: 70%;
+    width: auto;
     margin-top: 70px;
 
     border-radius: 8px;
 }
 
-.hero_container .imgae_section iframe{
-    width:560px;
-    height:315px;
+.hero_container .imgae_section img{
+    width:70%;
+    height:100%;
+    border-radius: 10px;
 
 }
 
@@ -218,11 +219,11 @@ label .close_btn{
 }
 
 .about_container .image_section{
-    max-width: 100%;
+    width: 100%;
 }
 
 .about_container .image_section img{
-    width: 100%;
+    width: 80%;
 }
 
 /* Services Section */
@@ -516,12 +517,12 @@ footer{
     .hero_container{
         flex-direction: column-reverse;
         align-items: center;
-        padding-bottom: 32px;
+       
     }
 
-    .hero_container .imgae_section iframe{
-        width: 89%;
-        height: 100%;
+    .hero_container .imgae_section img{
+        width: 100%;
+        height: 70%;
         align-items: center; 
     }
 
@@ -639,7 +640,7 @@ footer{
     }
 
     .hero_section{
-        height: calc(90vh - 80px);
+        height: calc(100vh - 80px);
     }
 
     .hero_container .text_section h2{
